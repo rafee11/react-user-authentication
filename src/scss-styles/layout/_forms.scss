@@ -1,0 +1,120 @@
+.auth-content {
+  .signin-col {
+    background-image: url('../../assets/images/signup-bg.svg');
+    background-repeat: no-repeat;
+    background-size: 700px;
+    background-position: right center;
+    background-attachment: fixed;
+  }
+  .forgot-col {
+    background-image: url('../../assets/images/forgot-bg.svg');
+    background-repeat: no-repeat;
+    background-size: 700px;
+    background-position: right center;
+    background-attachment: fixed;
+  }
+  .header_logo {
+    padding: 20px 30px 0px 30px;
+  }
+
+  .form-control {
+    color: #515151;
+
+    &::placeholder {
+      color: #515151;
+      font-size: 14px;
+    }
+  }
+
+  .form-control:focus {
+    box-shadow: 0px 10px 20px #0000000a;
+    border: 2px solid #7eb7be;
+  }
+
+  .form-group {
+    position: relative;
+  }
+
+  .form-control,
+  .input-group-text {
+    background-color: #fff;
+    border: 2px solid #e7e7ef;
+    border-radius: 10px;
+    color: #515151;
+    height: 55px;
+  }
+
+  .input-group-append {
+    margin-left: 0px;
+  }
+
+  .input-group-text {
+    border-left: none !important;
+  }
+
+  .showpass {
+    position: absolute;
+    right: 15px;
+    top: 22px;
+  }
+
+  .custom-checkbox {
+    .custom-control-input:checked ~ .custom-control-label {
+      &::before {
+        background-color: $blue;
+        border-color: $blue;
+      }
+    }
+
+    .custom-control-label {
+      &::before {
+        border: 2px solid #d7d7d7;
+        background-color: transparent;
+      }
+
+      &::after,
+      &::before {
+        border-radius: 3px;
+        top: 1.5px;
+        left: -21px;
+      }
+    }
+  }
+
+  .auth-overlay {
+    .card-container.login-card {
+      background: #ffffff;
+      box-shadow: 0px 3px 6px #00000029;
+      border-radius: 14px;
+      margin-top: 80px;
+      padding-top: 20px;
+    }
+
+    .card-header {
+      background: #ffffff;
+      border-bottom: 0;
+    }
+
+    .auth-btn {
+      background-color: #f16a24;
+      width: 330px;
+      height: 45px;
+      margin: 0 auto;
+      border-radius: 10px;
+    }
+  }
+
+  .aut-footer {
+    padding: 0px 30px;
+  }
+
+  .aut-footer .list-group-item {
+    border: 0;
+  }
+}
+.custom-input-form {
+  .custom-select,
+  input.form-control {
+    height: 44px;
+  }
+}

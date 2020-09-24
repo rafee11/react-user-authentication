@@ -1,0 +1,148 @@
+@media (min-width: 769px) {
+  .page-content {
+    padding-left: 65px;
+  }
+}
+
+@media (min-width: 768px) {
+  .navbar-toggler {
+    display: none;
+  }
+
+  .collapse {
+    &.navbar-collapse {
+      display: flex;
+      flex-basis: auto;
+      flex-direction: row-reverse;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .own-sidemenu-main {
+    &.closed {
+      display: none;
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .navbar-brand {
+    width: 50px !important;
+  }
+
+  .navbar {
+    .nav {
+      margin-bottom: 10px;
+
+      .nav-item {
+        width: 100%;
+
+        .nav-link.btn {
+          border: none;
+          text-align: left;
+          background: transparent !important;
+          color: #fff;
+        }
+      }
+    }
+  }
+
+  .page-content {
+    width: 100%;
+    padding-left: 0px;
+    padding-top: 64px;
+  }
+
+  .auth-content {
+    .signin-col {
+      background-image: none;
+    }
+    .forgot-col {
+      background-image: none;
+    }
+
+    .auth-overlay .auth-btn {
+      width: 100%;
+    }
+
+    .card-header h2 {
+      font-size: 24px;
+    }
+
+    .header_logo img {
+      margin: 0 auto;
+      display: block;
+    }
+
+    .auth-overlay .card-container.login-card {
+      margin-top: 40px;
+      padding: 20px 0px 0px 0px;
+    }
+
+    .aut-footer {
+      padding: 25px 0px;
+    }
+
+    .aut-footer .list-group-horizontal {
+      justify-content: center;
+    }
+
+    .aut-footer .list-group-item {
+      padding: 7px;
+    }
+
+    .auth-overlay {
+      padding-bottom: 20px;
+    }
+
+    .form-control {
+      height: 50px;
+    }
+  }
+}
+
+@media (min-width: 1024px) {
+  .pl-xl-10 {
+    padding-left: 30px;
+  }
+
+  .page-content {
+    &.show_pagecontent {
+      padding-left: 270px;
+    }
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .auth-content {
+    .signin-col {
+      background-size: 400px;
+    }
+    .forgot-col {
+      background-size: 400px;
+    }
+    .auth-overlay .auth-btn {
+      width: 100%;
+    }
+
+    .card-header h2 {
+      font-size: 28px;
+    }
+
+    .form-control {
+      height: 50px;
+    }
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .auth-content {
+    .signin-col {
+      background-size: 550px;
+    }
+    .forgot-col {
+      background-size: 550px;
+    }
+  }
+}
